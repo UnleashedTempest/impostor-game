@@ -1,6 +1,7 @@
 {
   "name": "impostor-game-backend",
   "version": "1.0.0",
+  "description": "Backend for the Impostor game.",
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
@@ -9,6 +10,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.5.4",
+    "sqlite3": "^5.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "uuid": "^9.0.0"
